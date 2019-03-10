@@ -1,0 +1,55 @@
+bundler is a gem that goes to ruby,org gem that grabs gem out of box that comes with default application ,
+later o it install as an sandbox
+once its complete we have an apllicaation working
+    it follows mvc pattern modern view controller 
+    mvc structure 
+        browser-> http get request-> recived by router rails -> sends to controller(either render or redirects the view)
+            |
+            *
+            reaches out to persistent layer,speaks and recieve form that database,
+             a response to their request
+            |
+            *
+            and send back to the usercd 
+            
+directory
+            assets -> images java script stylesheets
+            controllers -> controls
+            helpers ->app helper
+            mailer
+            modules ->it deals with all the concerns
+            views -> layouts comes with all the application of html versions
+             config by default is mysql i3
+             enviroments-> production,test,development 
+             db ->all our migratiions are going to be stored
+             lib -> not much ,assets
+             log-> all logs fromserver outputs
+             publich->are updates directly
+             test ->automated test
+             Gemfile->here are default gems comes with 
+             huhuku uses this file,lock file no update directly
+             Readme.rdoc file :display of code repository
+
+
+             component of web application:
+                    like
+                    restraunt ->customerno link to rails application(kitchen)
+                    you need a server who bascially gets the request from you and give it back to you
+
+                    fb menu : friends sharing
+                    to run the server we need to navigate to an application
+                    ls
+                    cd test_app
+                    //locally rails server
+                    //on nitrous rails server -b 0.0.0.0
+                    we need a production version to start huruku for producton starting making our application available
+
+
+                    developer : here are all development ,fake 
+                    production: all real info ,all consequences 
+                    
+        server : webrick (default)
+        to shut down of the server
+rails server :  eails server -b 0.0.,0.0
+            we are building it using a router :
+                route control action
