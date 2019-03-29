@@ -1,0 +1,36 @@
+Query language to communicate with database: SQL (Structured Query Language)
+
+CRUD actions:
+
+C - Create
+
+R - Read
+
+U - Update
+
+D - Delete
+
+Scaffold generator command to create Article model, articles controller, views for articles and migration file to create articles table:
+
+rails generate scaffold Article title:string description:text
+
+Command to see routes present for your app:
+
+rake routes
+
+If using Rails 5, rails routes
+
+The line resources :articles in the config/routes.rb file provides the following routes:
+
+- index of articles (listing)
+
+- new article
+
+- create article
+
+- edit article
+
+- update article (put and patch)
+
+- show article
+
